@@ -16,7 +16,7 @@ model = genai.GenerativeModel("gemini-2.5-flash")
 
 chat = model.start_chat(history=[
     {
-        "role": "user",
+        "role": "model",
         "parts": [
             """
 You are a highly trained and empathetic AI therapist with expertise in emotional wellness, mental health support, and reflective dialogue.
